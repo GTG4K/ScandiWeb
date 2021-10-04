@@ -16,7 +16,7 @@
             WHERE `id` = $user_id";
 
     if($conn->query($sql)===TRUE){
-        echo "GOOD JOB BRO!!!";
+        header('Location:index.php');
     }
 
 ?>

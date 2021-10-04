@@ -14,6 +14,6 @@
             VALUES ('$name','$surname','$birthday')";
 
     if ($conn->query($sql) === true){
-        echo "entry added";
+        header('Location:index.php');
     }
 ?>
