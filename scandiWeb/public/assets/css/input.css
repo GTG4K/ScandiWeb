@@ -1,0 +1,38 @@
+.blue-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(53, 122, 240);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    min-width: 60px;
+    height: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.3s;
+}
+
+.blue-button:hover{
+    background-color: rgb(27, 88, 194);
+    transition: 0.3s;
+}
+
+.red-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 67, 57);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    min-width: 60px;
+    height: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red-button:hover{
+    background-color: rgb(200, 38, 30);
+    transition: 0.3s;
+}
